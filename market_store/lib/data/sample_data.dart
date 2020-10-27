@@ -1,0 +1,40 @@
+import 'package:market_store/abstraction/discount_card.dart';
+import 'package:market_store/models/bronze_card.dart';
+import 'package:market_store/models/gold_card.dart';
+import 'package:market_store/models/silver_card.dart';
+
+List<DiscountCard> discountCardData = [
+  new BronzeCard(purchaseValue: 150, turnover: 0),
+  new BronzeCard(purchaseValue: 20, turnover: 120),
+  new BronzeCard(purchaseValue: 80, turnover: 322),
+  new BronzeCard(purchaseValue: 63, turnover: 170),
+  new BronzeCard(purchaseValue: 49, turnover: 0),
+  new BronzeCard(purchaseValue: 135, turnover: 35),
+  new BronzeCard(purchaseValue: 225, turnover: 15),
+  new BronzeCard(purchaseValue: 197, turnover: 267),
+  new BronzeCard(purchaseValue: 298, turnover: 129),
+  new BronzeCard(purchaseValue: 372, turnover: 0),
+  new BronzeCard(purchaseValue: 300, turnover: 175),
+  new SilverCard(purchaseValue: 850, turnover: 600),
+  new SilverCard(purchaseValue: 20, turnover: 120),
+  new SilverCard(purchaseValue: 80, turnover: 322),
+  new SilverCard(purchaseValue: 63, turnover: 170),
+  new SilverCard(purchaseValue: 49, turnover: 0),
+  new SilverCard(purchaseValue: 135, turnover: 35),
+  new SilverCard(purchaseValue: 225, turnover: 15),
+  new SilverCard(purchaseValue: 197, turnover: 267),
+  new SilverCard(purchaseValue: 298, turnover: 129),
+  new SilverCard(purchaseValue: 372, turnover: 0),
+  new SilverCard(purchaseValue: 300, turnover: 175),
+  new GoldCard(purchaseValue: 1300, turnover: 1500),
+  new GoldCard(purchaseValue: 250, turnover: 100),
+  new GoldCard(purchaseValue: 8000, turnover: 362),
+  new GoldCard(purchaseValue: 613, turnover: 560),
+  new GoldCard(purchaseValue: 4996, turnover: 20),
+  new GoldCard(purchaseValue: 13085, turnover: 35000),
+  new GoldCard(purchaseValue: 22215, turnover: 421),
+  new GoldCard(purchaseValue: 1907, turnover: 620),
+  new GoldCard(purchaseValue: 2638, turnover: 890),
+  new GoldCard(purchaseValue: 273, turnover: 0),
+  new GoldCard(purchaseValue: 500, turnover: 775),
+];
